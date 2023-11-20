@@ -14,6 +14,7 @@ class admin
     {
         $db = DB::getInstance();
         $req = $db->query("SELECT * FROM admin WHERE name = '$username' AND password = '$password' ");
+        $req = $db->query("SELECT * FROM admin WHERE name = '$username' AND password = '$password' ");
         return $req->fetchAll(PDO::FETCH_ASSOC);
     }
 }
