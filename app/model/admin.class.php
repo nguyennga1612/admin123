@@ -47,6 +47,37 @@ class admin
         $req = $db->query("SELECT * FROM admin WHERE name = '$username' AND password = '$password' ");
         return $req->fetchAll(PDO::FETCH_ASSOC);
     } public function getLogin($table_admin,$username,$password)
+    public function getLogin($table_admin,$username,$password)
+    {
+        $db = DB::getInstance();
+        $req = $db->query("SELECT * FROM admin WHERE name = '$username' AND password = '$password' ");
+        return $req->fetchAll(PDO::FETCH_ASSOC);
+    } public function getLogin($table_admin,$username,$password)
+    public function getLogin($table_admin,$username,$password)
+    {
+        $db = DB::getInstance();
+        $req = $db->query("SELECT * FROM admin WHERE name = '$username' AND password = '$password' ");
+        return $req->fetchAll(PDO::FETCH_ASSOC);
+    } public function getLogin($table_admin,$username,$password)
+    public function getLogin($table_admin,$username,$password)
+    {
+        $db = DB::getInstance();
+        $req = $db->query("SELECT * FROM admin WHERE name = '$username' AND password = '$password' ");
+        return $req->fetchAll(PDO::FETCH_ASSOC);
+    } public function getLogin($table_admin,$username,$password)
+    public function getLogin($table_admin,$username,$password)
+    {
+        $db = DB::getInstance();
+        $req = $db->query("SELECT * FROM admin WHERE name = '$username' AND password = '$password' ");
+        return $req->fetchAll(PDO::FETCH_ASSOC);
+    } public function getLogin($table_admin,$username,$password)
+    public function getLogin($table_admin,$username,$password)
+    {
+        $db = DB::getInstance();
+        $req = $db->query("SELECT * FROM admin WHERE name = '$username' AND password = '$password' ");
+        return $req->fetchAll(PDO::FETCH_ASSOC);
+    } public function getLogin($table_admin,$username,$password)
+    
     {
         $db = DB::getInstance();
         $req = $db->query("SELECT * FROM admin WHERE name = '$username' AND password = '$password' ");
