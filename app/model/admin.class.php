@@ -6,6 +6,7 @@ class admin
     public function login($table_admin,$username,$password)
     {
         $db = DB::getInstance();
+        $db = DB::getInstance();
         $req = $db->query("SELECT * FROM admin WHERE name = '$username' AND password = '$password' ");
         return $req->rowCount();
     }
